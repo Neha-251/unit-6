@@ -36,7 +36,7 @@ router.patch("/:id", async(req,res)=>{
 router.delete("/:id", async(req,res)=>{
     try {
         const plot = await Plot.findByIdAndDelete(req.params.id, req.body).lean().exec();
-        return res.status(201).send(lot);
+        return res.status(201).send(plot);
     } catch (error) {
         return res.status(500).send({message: error.message});
     }
