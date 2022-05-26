@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const spotSchema = mongoose.Schema(
+const plotSchema = mongoose.Schema(
     {
       spot_id: { type: "String", required: true },
     },
@@ -9,6 +9,6 @@ const spotSchema = mongoose.Schema(
       timestamps: true,
     }
 );
-const Spot = mongoose.model("spot",spotSchema);
+const Plot = mongoose.model("plot",plotSchema);
 
-module.exports = Spot;
+module.exports = Plot;

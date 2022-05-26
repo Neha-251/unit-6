@@ -26,8 +26,8 @@ router.post("", async(req,res)=>{
 
 router.patch("/:id", async(req,res)=>{
     try {
-        const lot = await Parking.findByIdAndUpdate(req.params.id, req.body).lean().exec();
-        return res.status(201).send({"parkingr": parking});
+        const parking = await Parking.findByIdAndUpdate(req.params.id, req.body).lean().exec();
+        return res.status(201).send(parking);
     } catch (error) {
         return res.status(500).send({message: error.message});
     }
@@ -36,7 +36,7 @@ router.patch("/:id", async(req,res)=>{
 router.delete("/:id", async(req,res)=>{
     try {
         const parking = await Parking.findByIdAndDelete(req.params.id, req.body).lean().exec();
-        return res.status(201).send({"parking":parking});
+        return res.status(201).send(parking);
     } catch (error) {
         return res.status(500).send({message: error.message});
     }

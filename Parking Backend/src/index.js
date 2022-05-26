@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-module.exports = app; //export to server.js
+module.exports = app; 
 
 
 app.use(express.json());
@@ -12,7 +12,7 @@ const floorController = require("./controllers/floor.controller");
 const parkingController = require("./controllers/parking.controller");
 const assistantController = require("./controllers/assistant.controller");
 
-// //middlewares
+
 app.use("/users",usersController);
 app.use("/plots",plotsController);
 app.use("/floors",floorController);
