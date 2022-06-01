@@ -1,0 +1,304 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "country": "Russia",
+            "city": "Proletarskiy",
+            "population": "391094"
+        },
+        {
+            "id": 2,
+            "country": "United States",
+            "city": "Omaha",
+            "population": "072142"
+        },
+        {
+            "id": 3,
+            "country": "China",
+            "city": "Yudai",
+            "population": "7465181"
+        },
+        {
+            "id": 4,
+            "country": "Serbia",
+            "city": "Paraćin",
+            "population": "403372"
+        },
+        {
+            "id": 5,
+            "country": "China",
+            "city": "Jiulong",
+            "population": "777915"
+        },
+        {
+            "id": 6,
+            "country": "Poland",
+            "city": "Bęczarka",
+            "population": "623406"
+        },
+        {
+            "id": 7,
+            "country": "China",
+            "city": "Miaoshi",
+            "population": "793928"
+        },
+        {
+            "id": 8,
+            "country": "Poland",
+            "city": "Straszyn",
+            "population": "783518"
+        },
+        {
+            "id": 9,
+            "country": "Canada",
+            "city": "Mercier",
+            "population": "283508"
+        },
+        {
+            "id": 10,
+            "country": "Portugal",
+            "city": "Quinta da Courela",
+            "population": "034079"
+        },
+        {
+            "id": 11,
+            "country": "Philippines",
+            "city": "Saguday",
+            "population": "943467"
+        },
+        {
+            "id": 12,
+            "country": "United States",
+            "city": "Columbus",
+            "population": "964865"
+        },
+        {
+            "id": 13,
+            "country": "Portugal",
+            "city": "Chavães",
+            "population": "867038"
+        },
+        {
+            "id": 14,
+            "country": "France",
+            "city": "Longwy",
+            "population": "480274"
+        },
+        {
+            "id": 15,
+            "country": "China",
+            "city": "Shuikou",
+            "population": "7346416"
+        },
+        {
+            "id": 16,
+            "country": "Czech Republic",
+            "city": "Třemošnice",
+            "population": "9365"
+        },
+        {
+            "id": 17,
+            "country": "Zimbabwe",
+            "city": "Chitungwiza",
+            "population": "56743"
+        },
+        {
+            "id": 18,
+            "country": "Slovenia",
+            "city": "Hrib-Loški Potok",
+            "population": "295101"
+        },
+        {
+            "id": 19,
+            "country": "Portugal",
+            "city": "Alenquer",
+            "population": "301561"
+        },
+        {
+            "id": 20,
+            "country": "China",
+            "city": "Miaoshou",
+            "population": "385706"
+        },
+        {
+            "id": 21,
+            "country": "Russia",
+            "city": "Shelopugino",
+            "population": "316934"
+        },
+        {
+            "id": 22,
+            "country": "Peru",
+            "city": "Cotabambas",
+            "population": "9398566"
+        },
+        {
+            "id": 23,
+            "country": "Latvia",
+            "city": "Ikšķile",
+            "population": "636018"
+        },
+        {
+            "id": 24,
+            "country": "United States",
+            "city": "New York City",
+            "population": "1560522410"
+        },
+        {
+            "id": 25,
+            "country": "South Africa",
+            "city": "Modimolle",
+            "population": "018430"
+        },
+        {
+            "id": 26,
+            "country": "France",
+            "city": "Paris 03",
+            "population": "2785256"
+        },
+        {
+            "id": 27,
+            "country": "Indonesia",
+            "city": "Naikoten Dua",
+            "population": "814672"
+        },
+        {
+            "id": 28,
+            "country": "China",
+            "city": "Tongliao",
+            "population": "497428"
+        },
+        {
+            "id": 29,
+            "country": "Iran",
+            "city": "Sūrīān",
+            "population": "099863"
+        },
+        {
+            "id": 30,
+            "country": "Mali",
+            "city": "Kokofata",
+            "population": "410464"
+        },
+        {
+            "id": 31,
+            "country": "China",
+            "city": "Shaxi",
+            "population": "059984"
+        },
+        {
+            "id": 32,
+            "country": "Sweden",
+            "city": "Ed",
+            "population": "479578"
+        },
+        {
+            "id": 33,
+            "country": "Ukraine",
+            "city": "Lyubashivka",
+            "population": "371157"
+        },
+        {
+            "id": 34,
+            "country": "Croatia",
+            "city": "Vinež",
+            "population": "273748"
+        },
+        {
+            "id": 35,
+            "country": "China",
+            "city": "Xingang",
+            "population": "249008"
+        },
+        {
+            "id": 36,
+            "country": "Mauritius",
+            "city": "Triolet",
+            "population": "403127"
+        },
+        {
+            "id": 37,
+            "country": "Japan",
+            "city": "Uchimaru",
+            "population": "142090"
+        },
+        {
+            "id": 38,
+            "country": "Iran",
+            "city": "Bandar-e Māhshahr",
+            "population": "350183"
+        },
+        {
+            "id": 39,
+            "country": "Indonesia",
+            "city": "Kuala Bintang",
+            "population": "598390"
+        },
+        {
+            "id": 40,
+            "country": "Brazil",
+            "city": "Brusque",
+            "population": "648112"
+        },
+        {
+            "id": 41,
+            "country": "China",
+            "city": "Yuyangguan",
+            "population": "4262375"
+        },
+        {
+            "id": 42,
+            "country": "China",
+            "city": "Boyu",
+            "population": "000618"
+        },
+        {
+            "id": 43,
+            "country": "Japan",
+            "city": "Imaichi",
+            "population": "1190411"
+        },
+        {
+            "id": 44,
+            "country": "China",
+            "city": "Fuding",
+            "population": "447397"
+        },
+        {
+            "id": 45,
+            "country": "North Korea",
+            "city": "Kapsan-ŭp",
+            "population": "8346876"
+        },
+        {
+            "id": 46,
+            "country": "China",
+            "city": "Jieguanting",
+            "population": "296902"
+        },
+        {
+            "id": 47,
+            "country": "Brazil",
+            "city": "Jaboticabal",
+            "population": "47637542"
+        },
+        {
+            "id": 48,
+            "country": "Canada",
+            "city": "South River",
+            "population": "327899"
+        },
+        {
+            "id": 49,
+            "country": "Brazil",
+            "city": "Irecê",
+            "population": "708364"
+        },
+        {
+            "id": 50,
+            "country": "Philippines",
+            "city": "Del Pilar",
+            "population": "377617"
+        }
+    ]
+}

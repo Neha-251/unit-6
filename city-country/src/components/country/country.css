@@ -1,0 +1,157 @@
+/* upper navbar div */
+  
+#searchbar{
+   
+    display: flex;
+    width:100%;
+    height: 60px;
+    /* border : 1px solid #e5428d; */
+    justify-content: center;
+    align-items: center;
+    background-color: #0d475f;
+    position: fixed;
+    top: 0;
+
+}
+#searchform{
+    width: 40%;
+    height: 50%;
+    display:flex;
+}
+
+
+#search-input{
+    width: 78%;
+    height: 100%;
+    margin: 0px 2%;
+    border-radius: 10px;
+    border: 1px solid #e5428d;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    font-family: 'lato', sans-serif;
+}
+
+#search-input::placeholder{
+    color: #984069;
+    margin: 2px 2px;
+}
+
+
+#search-btn{
+    width: 20%;
+    height: 100%;
+    background-color: #e5428d;
+    border: transparent;
+   
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'lato', sans-serif;
+}
+#search-btn:hover{
+    background-color: white;
+    color: #e5428d;
+}
+
+/* lower main body to display all countries */
+#countrydisplay{
+    margin: auto;
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(4, 22%);
+    border-radius: 10px;
+    width: 70%;
+    border: 2px solid #e5428d;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    
+}
+
+/* singlr card for country details  */
+#country-card{
+    width: 100%;
+    height: 290px;
+    border: 1px solid rgb(224, 224, 224);
+    margin-top: 25px;
+    padding: 4%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    overflow: auto;
+    /* scrollbar-width: 2px;
+    scrollbar-color: teal; */
+    
+}
+#country-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgb(2, 146, 146) 0px 10px 10px;
+}
+
+#countryflag{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+    
+}
+
+#countryname{
+    color: rgb(1, 94, 94);
+}
+#capital{
+    font-size: 18px;
+    /* line-height: 0%; */
+}
+#population{
+    border-radius: 10px;
+    /* line-height: 0%; */
+}
+
+.pagination{
+    /* margin: 20px auto; */
+    display: flex;
+    margin: 30px 550px; 
+
+
+}
+
+
+.pagination li{
+    list-style: none;
+    margin: 0 5px;
+    background-color:#e5428d;
+    border-radius: 10px;
+    
+    color: white;
+    padding: 2px 4px;
+    cursor: pointer;
+    border: 1px solid silver;
+    font-weight: 500;
+}
+
+/* for sorting method select tag  */
+#selectsort{
+    background: transparent;
+    border: none;
+    color : white;
+    background-color: #e5428d;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+    margin-left: 30px;
+}
+#selectfilter{
+    background: transparent;
+    border: none;
+    color : white;
+    background-color: #e5428d;
+    margin-left: 30px;
+    border-radius: 10px;
+
+    padding: 5px 10px;
+}
+
+#close{
+    padding: 5px;
+}
