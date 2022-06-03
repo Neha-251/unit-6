@@ -73,7 +73,7 @@
 /* singlr card for country details  */
 #country-card{
     width: 100%;
-    height: 290px;
+    height: auto;
     border: 1px solid rgb(224, 224, 224);
     margin-top: 25px;
     padding: 4%;
@@ -81,10 +81,25 @@
     border-radius: 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     overflow: auto;
-    /* scrollbar-width: 2px;
-    scrollbar-color: teal; */
-    
+    display: block;
 }
+
+
+
+.delete_country{
+    background: transparent;
+    font-size: 15px;
+    margin: 10px auto;
+    padding: 5px 10px;
+}
+
+.delete_country:hover{
+    background: #e5428d;
+    color:#0d475f;
+    cursor: pointer;
+    font-weight: 600;
+}
+
 #country-card:hover{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgb(2, 146, 146) 0px 10px 10px;
 }

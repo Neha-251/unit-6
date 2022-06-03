@@ -27,7 +27,7 @@ const Countrylist = ({country})=>{
                     country.map((data)=>{
                         return(
                             <div id="nameofcountrydiv" key={data.id}>
-                            <p id="nameofcountry">{data.name}</p>
+                            <p id="nameofcountry">{data.country}</p>
                             </div>
                         )
 
