@@ -6,12 +6,13 @@ const getData = async() => {
     try{
         let inp = document.getElementById("inp").value;
         console.log('inp', inp)
+        console.log("Called Function")
 
         let res = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${inp}`);
         let data = await res.json();
         console.log('data', data)
 
-        appendData(data.meals)
+       // appendData(data.meals)
 
     } catch(err) {
         console.log('err', err)
@@ -20,7 +21,7 @@ const getData = async() => {
 }
 
 
-const callFunc = (func, de) => {
+const callFunc = (getData, de) => {
     let timer;
 
     return function () {
@@ -34,7 +35,7 @@ const callFunc = (func, de) => {
     }
 }
 
-const callData = callFunc(getData, 500);
+const callData = callFunc(getData, 2000);
 
 
 
